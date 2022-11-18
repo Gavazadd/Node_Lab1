@@ -1,12 +1,12 @@
-function GET(req, res, url, payload) {
+function GET(req, res) {
   res.json({ text: "root get" });
 }
 
-function OPTIONS(req, res, url, payload) {
+function OPTIONS(req, res) {
   res.json({ name: "root options" });
 }
 
-function POST(req, res, url, payload) {
+function POST(req, res) {
   res.json({ text: "root post" });
 }
 
