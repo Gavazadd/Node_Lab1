@@ -9,6 +9,6 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  " plugins": ["sonarjs"],
+  plugins: ["sonarjs"],
   rules: {},
 };
